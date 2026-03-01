@@ -1,3 +1,4 @@
+-- DB update 2026_03_01_01 -> 2026_03_01_02
 -- Update gameobject 'Black Smoke - scale 2' with sniffed values
 -- new spawns
 DELETE FROM `gameobject` WHERE (`id` IN (965)) AND (`guid` IN (195, 196));

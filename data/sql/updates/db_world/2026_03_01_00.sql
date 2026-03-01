@@ -1,3 +1,4 @@
+-- DB update 2026_02_28_09 -> 2026_03_01_00
 -- Update gameobject 'Thunder Ale' with sniffed values
 -- new spawns
 DELETE FROM `gameobject` WHERE (`id` IN (369)) AND (`guid` IN (55));
